@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Clicly — Achetez malin, économisez au quotidien</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <div class="top-strip">
+    <div class="container">
+      <span><span class="spark">✦</span> Plus de <strong>2 500 offres vérifiées</strong> chaque semaine</span>
+      <span class="desktop-only">Des économies simples, sans perdre de temps.</span>
+    </div>
+  </div>
+
+  <header>
+    <div class="container header-main">
+      <a class="brand" href="index.html" aria-label="Accueil Clicly">
+        <img class="brand-logo-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGEdI0aloZheKk-x77ks2iv2JyIWeYDJJppfBegibytifWt73nqc3SQNyTjZsIoVapGxbtPKhFYv8SFVtFn12Ec3CtSPOgzXOPc5SE_QKeNg58sfaIFkGGWvISz0Q9c_PWhRcz41IKzQQ56bfTAFGDqzVu9sA63WO2Z8jnSjk6QbfioqKDTx9ZPiorjeUn/s320/clicly-logo-cropped.png" alt="Clicly"/>
+        <span class="brand-badge">Smart Shopping</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="active" href="guides-dachat.html">Guides d'Achat</a>
+        <a href="deals-promos.html">Deals &amp; Promos</a>
+        <a href="codes-coupons.html">Codes Coupons</a>
+        <a href="comparatifs.html">Comparatifs</a>
+        <a href="top-ventes.html">Top Ventes</a>
+      </nav>
+      <div class="header-actions">
+        <button class="round-button user-button" aria-label="Mon compte">
+          <svg width="17" height="17" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c.8-4 3.3-6 8-6s7.2 2 8 6"/></svg>
+        </button>
+        <button class="round-button menu-button" id="menuBtn" aria-label="Ouvrir le menu">
+          <svg width="19" height="19" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="container search-wrap">
+      <label class="search-box" aria-label="Rechercher une offre">
+        <svg width="17" height="17" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.2-4.2"/></svg>
+        <input id="searchInput" type="search" placeholder="Rechercher un produit, une enseigne ou un code promo..."/>
+        <span class="search-key">⌘ K</span>
+      </label>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <button class="round-button close-nav" id="closeNav" aria-label="Fermer le menu">✕</button>
+    <a href="guides-dachat.html">Guides d'Achat</a>
+    <a href="deals-promos.html">Deals &amp; Promos</a>
+    <a href="codes-coupons.html">Codes Coupons</a>
+    <a href="comparatifs.html">Comparatifs</a>
+    <a href="top-ventes.html">Top Ventes</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow"><span class="pulse-dot"/> Votre assistant économies au quotidien</div>
+          <h1>Achetez <em>malin</em>,<br/>économisez au quotidien.</h1>
+          <p class="hero-copy">Les meilleurs produits, les vrais bons plans et les codes promo qui fonctionnent. Clicly compare, vérifie et vous aide à faire le bon choix.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/p/deals-promos.html">Voir les bons plans <span>→</span></a>
+            <a class="btn btn-secondary" href="/p/guides-dachat.html">Explorer les guides</a>
+          </div>
+          <div class="trust-row">
+            <span><b class="check">✓</b> Offres vérifiées</span>
+            <span><b class="check">✓</b> Comparatifs indépendants</span>
+            <span><b class="check">✓</b> 100% gratuit</span>
+          </div>
+        </div>
+
+        <a class="hero-deal" href="/p/deals-promos.html" aria-label="Découvrir le deal de la semaine">
+          <span class="deal-label">DEAL DE LA SEMAINE</span>
+          <span class="discount-orb">-35%<small>JUSQU'À</small></span>
+          <h2>Les essentiels tech à prix mini.</h2>
+          <p>Sélection exclusive chez Fnac &amp; Darty.</p>
+          <div class="deal-bottom">
+            <span class="mini-logo">fnac <b style="color:#b9ffdd">+</b> darty</span>
+            <span class="deal-arrow">→</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="flash-section" id="deals">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="flash-title"><span class="flash-icon">⚡</span> Flash Deals</h2>
+            <p>Des prix qui ne resteront pas longtemps.</p>
+          </div>
+          <div class="timer"><span>Se termine dans</span> <b id="hours">05</b>:<b id="minutes">42</b>:<b id="seconds">18</b></div>
+        </div>
+        <div class="flash-scroll">
+          <a class="flash-card" href="#">
+            <span class="sale">-42%</span>
+            <h3>AirPods Pro (2e gén.)</h3>
+            <span class="old-price">279,99 €</span><span class="new-price">162,99 €</span>
+            <span class="product-emoji">🎧</span>
+          </a>
+          <a class="flash-card" href="#">
+            <span class="sale">-31%</span>
+            <h3>Robot café automatique</h3>
+            <span class="old-price">499,00 €</span><span class="new-price">344,90 €</span>
+            <span class="product-emoji">☕</span>
+          </a>
+          <a class="flash-card" href="#">
+            <span class="sale">-25%</span>
+            <h3>Aspirateur balai Dyson</h3>
+            <span class="old-price">449,00 €</span><span class="new-price">337,00 €</span>
+            <span class="product-emoji">🧹</span>
+          </a>
+          <a class="flash-card" href="#">
+            <span class="sale">-38%</span>
+            <h3>Montre connectée Garmin</h3>
+            <span class="old-price">299,99 €</span><span class="new-price">185,90 €</span>
+            <span class="product-emoji">⌚</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="guides">
+      <div class="container main-layout">
+        <div>
+          <div class="section-head">
+            <div>
+              <h2>Nos guides pour mieux acheter</h2>
+              <p>Nos experts décryptent les produits qui méritent votre budget.</p>
+            </div>
+            <a class="text-link" href="#">Tous les guides →</a>
+          </div>
+          <div class="article-grid">
+            <article class="article-card">
+              <a class="article-media" href="#">
+                <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Ordinateur portable sur un bureau"/>
+                <span class="merchant"><i class="merchant-dot"/> Clicly Lab</span>
+              </a>
+              <div class="article-body">
+                <span class="article-type">Guide d'achat</span>
+                <h3>Quel ordinateur portable choisir en 2024 ?</h3>
+                <p>Notre sélection selon votre usage, votre budget et les meilleurs rapports qualité-prix.</p>
+                <div class="article-meta"><span class="rating">★★★★★ <span>4.9</span></span><a class="read-link" href="#">Lire le guide →</a></div>
+              </div>
+            </article>
+            <article class="article-card" id="comparatifs">
+              <a class="article-media" href="#">
+                <img src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Espace de travail moderne"/>
+                <span class="merchant orange"><i class="merchant-dot"/> Amazon</span>
+              </a>
+              <div class="article-body">
+                <span class="article-type">Comparatif</span>
+                <h3>Les 7 meilleurs écrans PC à acheter</h3>
+                <p>Gaming, travail ou création : trouvez la dalle qui vous correspond vraiment.</p>
+                <div class="article-meta"><span class="rating">★★★★★ <span>4.8</span></span><a class="read-link" href="#">Comparer →</a></div>
+              </div>
+            </article>
+            <article class="article-card">
+              <a class="article-media" href="#">
+                <img src="https://images.unsplash.com/photo-1518441902117-f0a24dddfbe7?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Intérieur lumineux et décoré"/>
+                <span class="merchant green"><i class="merchant-dot"/> Leroy Merlin</span>
+              </a>
+              <div class="article-body">
+                <span class="article-type">Bons plans maison</span>
+                <h3>Aménager son intérieur sans se ruiner</h3>
+                <p>Nos astuces et trouvailles pour un chez-soi stylé à petit prix.</p>
+                <div class="article-meta"><span class="rating">★★★★★ <span>4.7</span></span><a class="read-link" href="#">Découvrir →</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="side-widget">
+          <div class="widget-top"><i>✦</i> Clicly vous conseille</div>
+          <h3>Quel est votre prochain achat ?</h3>
+          <p>Répondez à une question et recevez notre sélection personnalisée.</p>
+          <div class="widget-choice">
+            <button data-choice="La tech et le high-tech">💻   La tech et le high-tech <span>›</span></button>
+            <button data-choice="La maison et le quotidien">🏠   La maison et le quotidien <span>›</span></button>
+            <button data-choice="Le sport et les loisirs">🏃   Le sport et les loisirs <span>›</span></button>
+          </div>
+          <div class="widget-result" id="widgetResult"/>
+        </aside>
+      </div>
+    </section>
+
+    <section class="coupons-section" id="coupons">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Deals &amp; coupons exclusifs</h2>
+            <p>Testés par notre équipe, prêts à être utilisés.</p>
+          </div>
+          <a class="text-link" href="#">Voir tous les coupons →</a>
+        </div>
+        <div class="coupon-list">
+          <div class="coupon">
+            <div class="shop-logo nike">NIKE</div>
+            <div class="coupon-info"><strong>15% offerts chez Nike</strong><span>Valable sur une sélection lifestyle</span></div>
+            <span class="coupon-code">CLICLY15</span>
+            <button class="copy-btn" data-code="CLICLY15">Copier</button>
+          </div>
+          <div class="coupon">
+            <div class="shop-logo uber">Uber<br/>Eats</div>
+            <div class="coupon-info"><strong>10 € de réduction Uber Eats</strong><span>Sur votre première commande</span></div>
+            <span class="coupon-code">MIAM10</span>
+            <button class="copy-btn" data-code="MIAM10">Copier</button>
+          </div>
+          <div class="coupon">
+            <div class="shop-logo ikea">IKEA</div>
+            <div class="coupon-info"><strong>Livraison offerte chez IKEA</strong><span>Dès 59 € d'achat en ligne</span></div>
+            <span class="coupon-code">LIVRAISON</span>
+            <button class="copy-btn" data-code="LIVRAISON">Copier</button>
+          </div>
+          <div class="coupon">
+            <div class="shop-logo" style="background:#f2efff;color:#4f46e5;">ASOS</div>
+            <div class="coupon-info"><strong>Jusqu'à -20% sur la mode</strong><span>Les nouveautés et essentiels inclus</span></div>
+            <span class="coupon-code">STYLE20</span>
+            <button class="copy-btn" data-code="STYLE20">Copier</button>
+          </div>
+        </div>
+
+        <div class="newsletter">
+          <div class="newsletter-inner">
+            <div>
+              <div class="eyebrow">✦ La newsletter Clicly</div>
+              <h2>Les bons plans qui valent vraiment le clic.</h2>
+              <p>Chaque jeudi, une sélection courte, utile et sans spam dans votre boîte mail.</p>
+            </div>
+            <div>
+              <form class="subscribe" id="newsletterForm">
+                <input id="emailInput" type="email" placeholder="Votre adresse e-mail" aria-label="Votre adresse e-mail" required=""/>
+                <button type="submit" aria-label="S'inscrire à la newsletter">→</button>
+              </form>
+              <div class="form-note">En vous inscrivant, vous acceptez notre politique de confidentialité.</div>
+              <div class="success-message" id="successMessage">✓ Parfait, votre prochaine dose de bons plans arrive jeudi !</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories" id="top-ventes">
+      <div class="container">
+        <div class="section-head">
+          <div><h2>Explorer par catégorie</h2></div>
+          <a class="text-link" href="#">Toutes les catégories →</a>
+        </div>
+        <div class="category-grid">
+          <a href="#" class="category"><div class="category-icon">📱</div><strong>Tech &amp; Mobile</strong><span>1 284 bons plans</span></a>
+          <a href="#" class="category"><div class="category-icon">🛋️</div><strong>Maison &amp; Déco</strong><span>842 bons plans</span></a>
+          <a href="#" class="category"><div class="category-icon">👟</div><strong>Mode &amp; Beauté</strong><span>615 bons plans</span></a>
+          <a href="#" class="category"><div class="category-icon">🎮</div><strong>Gaming &amp; Loisirs</strong><span>396 bons plans</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</b:if>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <img class="brand-logo-img brand-logo-footer" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGEdI0aloZheKk-x77ks2iv2JyIWeYDJJppfBegibytifWt73nqc3SQNyTjZsIoVapGxbtPKhFYv8SFVtFn12Ec3CtSPOgzXOPc5SE_QKeNg58sfaIFkGGWvISz0Q9c_PWhRcz41IKzQQ56bfTAFGDqzVu9sA63WO2Z8jnSjk6QbfioqKDTx9ZPiorjeUn/s320/clicly-logo-cropped.png" alt="Clicly"/>
+          </a>
+          <p>Votre raccourci vers des achats plus intelligents. Guides, promos et comparatifs pour économiser chaque jour.</p>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="TikTok">tk</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Pinterest">p</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Découvrir</h4>
+            <a href="guides-dachat.html">Guides d'achat</a><a href="comparatifs.html">Comparatifs</a><a href="deals-promos.html">Bons plans</a><a href="codes-coupons.html">Codes promo</a>
+          </div>
+          <div class="footer-col">
+            <h4>Clicly</h4>
+            <a href="#">À propos</a><a href="#">Notre méthode</a><a href="#">Nous contacter</a><a href="#">Rejoindre l'équipe</a>
+          </div>
+          <div class="footer-col">
+            <h4>Besoin d'aide ?</h4>
+            <a href="#">FAQ</a><a href="#">Signaler une offre</a><a href="#">Partenaires</a><a href="#">Centre d'aide</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <strong>Transparence :</strong> Clicly peut percevoir une commission lorsqu'un achat est réalisé via certains liens. Cela ne change jamais le prix pour vous et finance nos contenus indépendants.
+        <div class="legal-row">
+          <span>© 2024 Clicly. Tous droits réservés.</span><a href="#">Mentions légales</a><a href="#">Confidentialité</a><button class="cookie-btn" id="cookieBtn">Gérer les cookies</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">Préférences de cookies ouvertes.</div>
+
+  
+
+<script src="js/script.js"></script>
+</body>
+</html>

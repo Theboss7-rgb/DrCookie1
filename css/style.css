@@ -1,4 +1,5 @@
-:root {
+
+    :root {
       --ink: #172033;
       --muted: #68738a;
       --line: #e8ecf3;
@@ -95,6 +96,13 @@
     .search-box svg { color: var(--muted); flex: 0 0 auto; }
     .search-box input { width: 100%; outline: none; border: 0; color: var(--ink); font-size: 13px; }
     .search-box input::placeholder { color: #94a0b4; }
+    .search-results { display:none; position:absolute; left:0; right:0; top:calc(100% + 6px); z-index:40; overflow:hidden; border:1px solid var(--line); border-radius:14px; background:#fff; box-shadow:0 16px 32px rgba(20,25,40,.14); }
+    .search-results.open { display:block; }
+    .search-result { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:11px 15px; border-bottom:1px solid var(--line); font-size:13px; font-weight:600; color:var(--ink); }
+    .search-result:last-child { border-bottom:0; }
+    .search-result:hover { background:#f7f8fb; }
+    .search-result small { color:var(--muted); font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:.4px; }
+    .search-empty { padding:14px 15px; color:var(--muted); font-size:12px; }
     .search-key { display: none; padding: 3px 7px; border-radius: 5px; background: #f2f4f8; color: var(--muted); font-size: 11px; }
 
     .hero { position: relative; overflow: hidden; padding: 34px 0 25px; }

@@ -1,4 +1,5 @@
-const mobileNav = document.getElementById('mobileNav');
+
+    const mobileNav = document.getElementById('mobileNav');
     document.getElementById('menuBtn').addEventListener('click', () => mobileNav.classList.add('open'));
     document.getElementById('closeNav').addEventListener('click', () => mobileNav.classList.remove('open'));
     mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
@@ -11,6 +12,41 @@ const mobileNav = document.getElementById('mobileNav');
       }
       if (e.key === 'Escape') mobileNav.classList.remove('open');
     });
+
+    (function() {
+      const input = document.getElementById('searchInput');
+      if (!input || typeof SEARCH_INDEX === 'undefined') return;
+
+      const box = input.closest('.search-box');
+      const results = document.createElement('div');
+      results.className = 'search-results';
+      box.parentElement.style.position = 'relative';
+      box.parentElement.appendChild(results);
+
+      function normalize(str) {
+        return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      }
+
+      function render(query) {
+        const q = normalize(query.trim());
+        if (!q) { results.classList.remove('open'); results.innerHTML = ''; return; }
+        const matches = SEARCH_INDEX.filter(item => normalize(item.name).includes(q)).slice(0, 8);
+        if (matches.length === 0) {
+          results.innerHTML = '<div class="search-empty">Aucun résultat pour "' + query + '"</div>';
+        } else {
+          results.innerHTML = matches.map(item =>
+            '<a class="search-result" href="' + item.url + '"><span>' + item.name + '</span><small>' + item.type + '</small></a>'
+          ).join('');
+        }
+        results.classList.add('open');
+      }
+
+      input.addEventListener('input', () => render(input.value));
+      input.addEventListener('focus', () => { if (input.value.trim()) render(input.value); });
+      document.addEventListener('click', (e) => {
+        if (!box.parentElement.contains(e.target)) { results.classList.remove('open'); }
+      });
+    })();
 
     document.querySelectorAll('.copy-btn').forEach(btn => {
       btn.addEventListener('click', async () => {

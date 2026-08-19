@@ -1,5 +1,4 @@
-
-    const mobileNav = document.getElementById('mobileNav');
+const mobileNav = document.getElementById('mobileNav');
     document.getElementById('menuBtn').addEventListener('click', () => mobileNav.classList.add('open'));
     document.getElementById('closeNav').addEventListener('click', () => mobileNav.classList.remove('open'));
     mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
@@ -48,14 +47,19 @@
     const minutesEl = document.getElementById('minutes');
     const secondsEl = document.getElementById('seconds');
     if (hoursEl && minutesEl && secondsEl) {
-      let total = 5 * 3600 + 42 * 60 + 18;
-      setInterval(() => {
-        total = Math.max(0, total - 1);
-        const h = Math.floor(total / 3600), m = Math.floor((total % 3600) / 60), s = total % 60;
+      const dealEnd = new Date('2026-08-26T22:59:00');
+      function updateCountdown() {
+        const diff = Math.max(0, dealEnd - new Date());
+        const totalSeconds = Math.floor(diff / 1000);
+        const h = Math.floor(totalSeconds / 3600);
+        const m = Math.floor((totalSeconds % 3600) / 60);
+        const s = totalSeconds % 60;
         hoursEl.textContent = String(h).padStart(2, '0');
         minutesEl.textContent = String(m).padStart(2, '0');
         secondsEl.textContent = String(s).padStart(2, '0');
-      }, 1000);
+      }
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
     }
 
     const toast = document.getElementById('toast');

@@ -1,10 +1,10 @@
 const SEARCH_INDEX = [
   // Vrais produits
-  { name: "Insta360 X5 8K", type: "Produit", url: "deals-promos.html" },
+  { name: "Caméra d'action Insta360 X5 8K 30fps", type: "Produit", url: "deals-promos.html" },
   { name: "Machine à expresso W H10A", type: "Produit", url: "deals-promos.html" },
-  { name: "Haylou Watch S6", type: "Produit", url: "deals-promos.html" },
-  { name: "Baseus Eli 2i Fit", type: "Produit", url: "deals-promos.html" },
-  { name: "QCY VN200 Pro", type: "Produit", url: "deals-promos.html" },
+  { name: "Montre connectée HAYLOU Watch S6", type: "Produit", url: "deals-promos.html" },
+  { name: "Baseus Eli 2i Fit écouteurs à oreille ouverte véritable sans fil", type: "Produit", url: "deals-promos.html" },
+  { name: "Casque de Jeu filaire - QCY VN200 Pro", type: "Produit", url: "deals-promos.html" },
   // Pages principales
   { name: "Deals & Promos", type: "Page", url: "deals-promos.html" },
   { name: "Codes Coupons", type: "Page", url: "codes-coupons.html" },

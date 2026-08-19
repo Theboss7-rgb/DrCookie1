@@ -328,9 +328,8 @@
     @media (min-width: 1100px) { .deals-grid { grid-template-columns: repeat(4,1fr); } }
     .deal-card { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 18px; background: #fff; overflow: hidden; transition: transform .22s, box-shadow .22s; }
     .deal-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
-    .deal-card-media { position: relative; display: flex; align-items: center; justify-content: center; height: 320px; background: #f6f7fb; }
-    .deal-card-media-el { max-width: 98%; max-height: 98%; object-fit: contain; }
-    @media (min-width: 640px) { .deal-card-media { height: 230px; } .deal-card-media-el { max-width: 92%; max-height: 92%; } }
+    .deal-card-media { position: relative; display: flex; align-items: center; justify-content: center; height: 190px; background: #f6f7fb; }
+    .deal-card-media-el { max-width: 78%; max-height: 78%; object-fit: contain; }
     .deal-card-emoji { font-size: 76px; }
     .deal-card-sale { position: absolute; top: 12px; left: 12px; padding: 6px 10px; border-radius: 8px; background: var(--rose); color: white; font-size: 13px; font-weight: 800; }
     .deal-card-body { display: flex; flex-direction: column; gap: 8px; padding: 16px 16px 18px; }

@@ -43,17 +43,20 @@ const mobileNav = document.getElementById('mobileNav');
       });
     });
 
+    const daysEl = document.getElementById('days');
     const hoursEl = document.getElementById('hours');
     const minutesEl = document.getElementById('minutes');
     const secondsEl = document.getElementById('seconds');
-    if (hoursEl && minutesEl && secondsEl) {
+    if (daysEl && hoursEl && minutesEl && secondsEl) {
       const dealEnd = new Date('2026-08-26T22:59:00');
       function updateCountdown() {
         const diff = Math.max(0, dealEnd - new Date());
         const totalSeconds = Math.floor(diff / 1000);
-        const h = Math.floor(totalSeconds / 3600);
+        const d = Math.floor(totalSeconds / 86400);
+        const h = Math.floor((totalSeconds % 86400) / 3600);
         const m = Math.floor((totalSeconds % 3600) / 60);
         const s = totalSeconds % 60;
+        daysEl.textContent = String(d);
         hoursEl.textContent = String(h).padStart(2, '0');
         minutesEl.textContent = String(m).padStart(2, '0');
         secondsEl.textContent = String(s).padStart(2, '0');

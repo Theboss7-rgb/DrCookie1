@@ -11,8 +11,8 @@
 
   <div class="top-strip">
     <div class="container">
-      <span><span class="spark">✦</span> Plus de <strong>2 500 offres vérifiées</strong> chaque semaine</span>
-      <span class="desktop-only">Des économies simples, sans perdre de temps.</span>
+      <span><span class="spark">✦</span> <span data-i18n="topstrip.badge">Plus de 2 500 offres vérifiées chaque semaine</span></span>
+      <span class="desktop-only" data-i18n="topstrip.tagline">Des économies simples, sans perdre de temps.</span>
     </div>
   </div>
 
@@ -23,13 +23,24 @@
         <span class="brand-badge">Smart Shopping</span>
       </a>
       <nav class="nav" aria-label="Navigation principale">
-        <a class="active" href="guides-dachat.html">Guides d'Achat</a>
-        <a href="deals-promos.html">Deals &amp; Promos</a>
-        <a href="codes-coupons.html">Codes Coupons</a>
-        <a href="comparatifs.html">Comparatifs</a>
-        <a href="top-ventes.html">Top Ventes</a>
+        <a class="active" href="guides-dachat.html" data-i18n="nav.guides">Guides d'Achat</a>
+        <a href="deals-promos.html" data-i18n="nav.deals">Deals &amp; Promos</a>
+        <a href="codes-coupons.html" data-i18n="nav.coupons">Codes Coupons</a>
+        <a href="comparatifs.html" data-i18n="nav.comparatifs">Comparatifs</a>
+        <a href="top-ventes.html" data-i18n="nav.topventes">Top Ventes</a>
       </nav>
       <div class="header-actions">
+        <div class="lang-switch">
+          <button class="round-button lang-toggle" id="langToggle" aria-label="Changer de langue" type="button">
+            <span id="langCurrentFlag">🇫🇷</span>
+          </button>
+          <div class="lang-menu" id="langMenu">
+            <button data-lang="fr" type="button">🇫🇷 Français</button>
+            <button data-lang="en" type="button">🇬🇧 English</button>
+            <button data-lang="ar" type="button">🇸🇦 العربية</button>
+            <button data-lang="es" type="button">🇪🇸 Español</button>
+          </div>
+        </div>
         <button class="round-button user-button" aria-label="Mon compte">
           <svg width="17" height="17" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c.8-4 3.3-6 8-6s7.2 2 8 6"/></svg>
         </button>
@@ -41,7 +52,7 @@
     <div class="container search-wrap">
       <label class="search-box" aria-label="Rechercher une offre">
         <svg width="17" height="17" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.2-4.2"/></svg>
-        <input id="searchInput" type="search" placeholder="Rechercher un produit, une enseigne ou un code promo..."/>
+        <input id="searchInput" type="search" placeholder="Rechercher un produit, une enseigne ou un code promo..." data-i18n-ph="search.placeholder"/>
         <span class="search-key">⌘ K</span>
       </label>
     </div>
@@ -49,28 +60,28 @@
 
   <div class="mobile-nav" id="mobileNav">
     <button class="round-button close-nav" id="closeNav" aria-label="Fermer le menu">✕</button>
-    <a href="guides-dachat.html">Guides d'Achat</a>
-    <a href="deals-promos.html">Deals &amp; Promos</a>
-    <a href="codes-coupons.html">Codes Coupons</a>
-    <a href="comparatifs.html">Comparatifs</a>
-    <a href="top-ventes.html">Top Ventes</a>
+    <a href="guides-dachat.html" data-i18n="nav.guides">Guides d'Achat</a>
+    <a href="deals-promos.html" data-i18n="nav.deals">Deals &amp; Promos</a>
+    <a href="codes-coupons.html" data-i18n="nav.coupons">Codes Coupons</a>
+    <a href="comparatifs.html" data-i18n="nav.comparatifs">Comparatifs</a>
+    <a href="top-ventes.html" data-i18n="nav.topventes">Top Ventes</a>
   </div>
 
   <main>
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="eyebrow"><span class="pulse-dot"></span> Votre assistant économies au quotidien</div>
-          <h1>Achetez <em>malin</em>,<br/>économisez au quotidien.</h1>
-          <p class="hero-copy">Les meilleurs produits, les vrais bons plans et les codes promo qui fonctionnent. Clicly compare, vérifie et vous aide à faire le bon choix.</p>
+          <div class="eyebrow"><span class="pulse-dot"></span> <span data-i18n="hero.eyebrow">Votre assistant économies au quotidien</span></div>
+          <h1><span data-i18n="hero.title1">Achetez </span><em data-i18n="hero.title1em">malin</em>,<br/><span data-i18n="hero.title2">économisez au quotidien.</span></h1>
+          <p class="hero-copy" data-i18n="hero.copy">Les meilleurs produits, les vrais bons plans et les codes promo qui fonctionnent. Clicly compare, vérifie et vous aide à faire le bon choix.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="deals-promos.html">Voir les bons plans <span>→</span></a>
-            <a class="btn btn-secondary" href="guides-dachat.html">Explorer les guides</a>
+            <a class="btn btn-primary" href="deals-promos.html"><span data-i18n="hero.btn1">Voir les bons plans</span> <span>→</span></a>
+            <a class="btn btn-secondary" href="guides-dachat.html" data-i18n="hero.btn2">Explorer les guides</a>
           </div>
           <div class="trust-row">
-            <span><b class="check">✓</b> Offres vérifiées</span>
-            <span><b class="check">✓</b> Comparatifs indépendants</span>
-            <span><b class="check">✓</b> 100% gratuit</span>
+            <span><b class="check">✓</b> <span data-i18n="hero.trust1">Offres vérifiées</span></span>
+            <span><b class="check">✓</b> <span data-i18n="hero.trust2">Comparatifs indépendants</span></span>
+            <span><b class="check">✓</b> <span data-i18n="hero.trust3">100% gratuit</span></span>
           </div>
         </div>
 
@@ -91,10 +102,10 @@
       <div class="container">
         <div class="section-head">
           <div>
-            <h2 class="flash-title"><span class="flash-icon">⚡</span> Flash Deals</h2>
+            <h2 class="flash-title"><span class="flash-icon">⚡</span> <span data-i18n="flash.title">Flash Deals</span></h2>
             <p>Des prix qui ne resteront pas longtemps.</p>
           </div>
-          <div class="timer"><span>Se termine dans</span> <b id="days">--</b>j <b id="hours">--</b>:<b id="minutes">--</b>:<b id="seconds">--</b></div>
+          <div class="timer"><span data-i18n="flash.timer">Se termine dans</span> <b id="days">--</b>j <b id="hours">--</b>:<b id="minutes">--</b>:<b id="seconds">--</b></div>
         </div>
         <div class="flash-scroll">
           <a class="flash-card" href="https://s.click.aliexpress.com/e/_c3CbUBzz" target="_blank" rel="noopener nofollow sponsored">
@@ -134,10 +145,10 @@
         <div>
           <div class="section-head">
             <div>
-              <h2>Nos guides pour mieux acheter</h2>
-              <p>Nos experts décryptent les produits qui méritent votre budget.</p>
+              <h2 data-i18n="guides.title">Nos guides pour mieux acheter</h2>
+              <p data-i18n="guides.sub">Nos experts décryptent les produits qui méritent votre budget.</p>
             </div>
-            <a class="text-link" href="#">Tous les guides →</a>
+            <a class="text-link" href="guides-dachat.html" data-i18n="guides.link">Tous les guides →</a>
           </div>
           <div class="article-grid">
             <article class="article-card">
@@ -180,13 +191,13 @@
         </div>
 
         <aside class="side-widget">
-          <div class="widget-top"><i>✦</i> Clicly vous conseille</div>
-          <h3>Quel est votre prochain achat ?</h3>
-          <p>Répondez à une question et recevez notre sélection personnalisée.</p>
+          <div class="widget-top"><i>✦</i> <span data-i18n="widget.top">Clicly vous conseille</span></div>
+          <h3 data-i18n="widget.title">Quel est votre prochain achat ?</h3>
+          <p data-i18n="widget.sub">Répondez à une question et recevez notre sélection personnalisée.</p>
           <div class="widget-choice">
-            <button data-choice="La tech et le high-tech">💻   La tech et le high-tech <span>›</span></button>
-            <button data-choice="La maison et le quotidien">🏠   La maison et le quotidien <span>›</span></button>
-            <button data-choice="Le sport et les loisirs">🏃   Le sport et les loisirs <span>›</span></button>
+            <button data-choice="La tech et le high-tech">💻   <span data-i18n="widget.tech">La tech et le high-tech</span> <span>›</span></button>
+            <button data-choice="La maison et le quotidien">🏠   <span data-i18n="widget.home">La maison et le quotidien</span> <span>›</span></button>
+            <button data-choice="Le sport et les loisirs">🏃   <span data-i18n="widget.sport">Le sport et les loisirs</span> <span>›</span></button>
           </div>
           <div class="widget-result" id="widgetResult"></div>
         </aside>
@@ -197,10 +208,10 @@
       <div class="container">
         <div class="section-head">
           <div>
-            <h2>Deals &amp; coupons exclusifs</h2>
-            <p>Testés par notre équipe, prêts à être utilisés.</p>
+            <h2 data-i18n="coupons.title">Deals &amp; coupons exclusifs</h2>
+            <p data-i18n="coupons.sub">Testés par notre équipe, prêts à être utilisés.</p>
           </div>
-          <a class="text-link" href="codes-coupons.html">Voir tous les coupons →</a>
+          <a class="text-link" href="codes-coupons.html" data-i18n="coupons.link">Voir tous les coupons →</a>
         </div>
         <div class="coupon-list">
           <div class="coupon">
@@ -232,16 +243,16 @@
         <div class="newsletter">
           <div class="newsletter-inner">
             <div>
-              <div class="eyebrow">✦ La newsletter Clicly</div>
-              <h2>Les bons plans qui valent vraiment le clic.</h2>
-              <p>Chaque jeudi, une sélection courte, utile et sans spam dans votre boîte mail.</p>
+              <div class="eyebrow">✦ <span data-i18n="newsletter.badge">La newsletter Clicly</span></div>
+              <h2 data-i18n="newsletter.title">Les bons plans qui valent vraiment le clic.</h2>
+              <p data-i18n="newsletter.sub">Chaque jeudi, une sélection courte, utile et sans spam dans votre boîte mail.</p>
             </div>
             <div>
               <form class="subscribe" id="newsletterForm">
-                <input id="emailInput" type="email" placeholder="Votre adresse e-mail" aria-label="Votre adresse e-mail" required=""/>
+                <input id="emailInput" type="email" placeholder="Votre adresse e-mail" aria-label="Votre adresse e-mail" data-i18n-ph="newsletter.email" required=""/>
                 <button type="submit" aria-label="S'inscrire à la newsletter">→</button>
               </form>
-              <div class="form-note">En vous inscrivant, vous acceptez notre politique de confidentialité.</div>
+              <div class="form-note" data-i18n="newsletter.note">En vous inscrivant, vous acceptez notre politique de confidentialité.</div>
               <div class="success-message" id="successMessage">✓ Parfait, votre prochaine dose de bons plans arrive jeudi !</div>
             </div>
           </div>
@@ -252,8 +263,8 @@
     <section class="categories" id="top-ventes">
       <div class="container">
         <div class="section-head">
-          <div><h2>Explorer par catégorie</h2></div>
-          <a class="text-link" href="categories.html">Toutes les catégories →</a>
+          <div><h2 data-i18n="categories.title">Explorer par catégorie</h2></div>
+          <a class="text-link" href="categories.html" data-i18n="categories.link">Toutes les catégories →</a>
         </div>
         <div class="category-grid">
           <a href="tech-mobile.html" class="category"><div class="category-icon">📱</div><strong>Tech &amp; Mobile</strong><span>5 bons plans</span></a>
@@ -272,30 +283,30 @@
           <a class="brand" href="index.html">
             <img class="brand-logo-img brand-logo-footer" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGEdI0aloZheKk-x77ks2iv2JyIWeYDJJppfBegibytifWt73nqc3SQNyTjZsIoVapGxbtPKhFYv8SFVtFn12Ec3CtSPOgzXOPc5SE_QKeNg58sfaIFkGGWvISz0Q9c_PWhRcz41IKzQQ56bfTAFGDqzVu9sA63WO2Z8jnSjk6QbfioqKDTx9ZPiorjeUn/s320/clicly-logo-cropped.png" alt="Clicly"/>
           </a>
-          <p>Votre raccourci vers des achats plus intelligents. Guides, promos et comparatifs pour économiser chaque jour.</p>
+          <p data-i18n="footer.tagline">Votre raccourci vers des achats plus intelligents. Guides, promos et comparatifs pour économiser chaque jour.</p>
           <div class="socials">
             <a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="TikTok">tk</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Pinterest">p</a>
           </div>
         </div>
         <div class="footer-links">
           <div class="footer-col">
-            <h4>Découvrir</h4>
-            <a href="guides-dachat.html">Guides d'achat</a><a href="comparatifs.html">Comparatifs</a><a href="deals-promos.html">Bons plans</a><a href="codes-coupons.html">Codes promo</a>
+            <h4 data-i18n="footer.discover">Découvrir</h4>
+            <a href="guides-dachat.html" data-i18n="nav.guides">Guides d'achat</a><a href="comparatifs.html" data-i18n="nav.comparatifs">Comparatifs</a><a href="deals-promos.html" data-i18n="nav.deals">Bons plans</a><a href="codes-coupons.html" data-i18n="nav.coupons">Codes promo</a>
           </div>
           <div class="footer-col">
             <h4>Clicly</h4>
-            <a href="#">À propos</a><a href="#">Notre méthode</a><a href="#">Nous contacter</a><a href="#">Rejoindre l'équipe</a>
+            <a href="#" data-i18n="footer.about">À propos</a><a href="#" data-i18n="footer.method">Notre méthode</a><a href="#" data-i18n="footer.contact">Nous contacter</a><a href="#" data-i18n="footer.jointeam">Rejoindre l'équipe</a>
           </div>
           <div class="footer-col">
-            <h4>Besoin d'aide ?</h4>
-            <a href="#">FAQ</a><a href="#">Signaler une offre</a><a href="#">Partenaires</a><a href="#">Centre d'aide</a>
+            <h4 data-i18n="footer.help">Besoin d'aide ?</h4>
+            <a href="#" data-i18n="footer.faq">FAQ</a><a href="#" data-i18n="footer.report">Signaler une offre</a><a href="#" data-i18n="footer.partners">Partenaires</a><a href="#" data-i18n="footer.helpcenter">Centre d'aide</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
         <strong>Transparence :</strong> Clicly peut percevoir une commission lorsqu'un achat est réalisé via certains liens. Cela ne change jamais le prix pour vous et finance nos contenus indépendants.
         <div class="legal-row">
-          <span>© 2024 Clicly. Tous droits réservés.</span><a href="#">Mentions légales</a><a href="#">Confidentialité</a><button class="cookie-btn" id="cookieBtn">Gérer les cookies</button>
+          <span>© 2024 Clicly. Tous droits réservés.</span><a href="#" data-i18n="footer.legal">Mentions légales</a><a href="#" data-i18n="footer.privacy">Confidentialité</a><button class="cookie-btn" id="cookieBtn" data-i18n="footer.cookies">Gérer les cookies</button>
         </div>
       </div>
     </div>
@@ -305,6 +316,7 @@
 
   
 
+<script src="js/i18n.js"></script>
 <script src="js/search-data.js"></script>
 <script src="js/script.js"></script>
 </body>

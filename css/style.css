@@ -103,6 +103,15 @@
     .search-result:hover { background:#f7f8fb; }
     .search-result small { color:var(--muted); font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:.4px; }
     .search-empty { padding:14px 15px; color:var(--muted); font-size:12px; }
+    .lang-switch { position:relative; }
+    .lang-toggle { font-size:16px; }
+    .lang-menu { display:none; position:absolute; right:0; top:calc(100% + 8px); z-index:45; min-width:150px; overflow:hidden; border:1px solid var(--line); border-radius:12px; background:#fff; box-shadow:0 16px 32px rgba(20,25,40,.14); }
+    .lang-menu.open { display:block; }
+    .lang-menu button { display:flex; align-items:center; gap:8px; width:100%; padding:10px 13px; background:none; text-align:left; font-size:12px; font-weight:700; color:var(--ink); }
+    .lang-menu button:hover { background:#f7f8fb; }
+    body.rtl { direction: rtl; }
+    body.rtl .lang-menu { right:auto; left:0; }
+    body.rtl .search-box svg { transform: scaleX(-1); }
     .search-key { display: none; padding: 3px 7px; border-radius: 5px; background: #f2f4f8; color: var(--muted); font-size: 11px; }
 
     .hero { position: relative; overflow: hidden; padding: 34px 0 25px; }

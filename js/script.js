@@ -1,5 +1,4 @@
-
-    const mobileNav = document.getElementById('mobileNav');
+const mobileNav = document.getElementById('mobileNav');
     document.getElementById('menuBtn').addEventListener('click', () => mobileNav.classList.add('open'));
     document.getElementById('closeNav').addEventListener('click', () => mobileNav.classList.remove('open'));
     mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
@@ -58,12 +57,35 @@
       });
     });
 
+    const WIDGET_RECOS = {
+      "La tech et le high-tech": {
+        name: "Caméra d'action Insta360 X5 8K 30fps",
+        price: "378,51 €",
+        url: "deals-promos.html"
+      },
+      "La maison et le quotidien": {
+        name: "Machine à expresso W H10A",
+        price: "281,39 €",
+        url: "deals-promos.html"
+      },
+      "Le sport et les loisirs": {
+        name: "Notre sélection Sport & Fitness",
+        price: null,
+        url: "sport-fitness.html"
+      }
+    };
+
     document.querySelectorAll('[data-choice]').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('[data-choice]').forEach(b => b.classList.remove('selected'));
         btn.classList.add('selected');
         const result = document.getElementById('widgetResult');
-        if (result) result.textContent = '✓ On prépare nos meilleures recommandations ' + btn.dataset.choice.toLowerCase() + '.';
+        if (!result) return;
+        const reco = WIDGET_RECOS[btn.dataset.choice];
+        if (reco) {
+          const priceHtml = reco.price ? ' — <strong>' + reco.price + '</strong>' : '';
+          result.innerHTML = '✓ On te recommande : ' + reco.name + priceHtml + ' <a href="' + reco.url + '" class="widget-result-link">Voir l\'offre →</a>';
+        }
       });
     });
 

@@ -4,6 +4,9 @@ const SEARCH_INDEX = [
   { name: "Machine à expresso W H10A", type: "Produit", url: "deals-promos.html" },
   { name: "Montre connectée HAYLOU Watch S6", type: "Produit", url: "deals-promos.html" },
   { name: "Baseus Eli 2i Fit écouteurs à oreille ouverte véritable sans fil", type: "Produit", url: "deals-promos.html" },
+  { name: "FIFINE - Kit de microphone XLR dynamique avec HONArm", type: "Produit", url: "gaming-loisirs.html" },
+  { name: "Écouteurs filaires Fosi Audio IM4 Hifi", type: "Produit", url: "gaming-loisirs.html" },
+  { name: "Moniteur portable ARZOPA 16,1\" 180Hz 2,5K", type: "Produit", url: "gaming-loisirs.html" },
   { name: "Casque de Jeu filaire - QCY VN200 Pro", type: "Produit", url: "deals-promos.html" },
   // Pages principales
   { name: "Deals & Promos", type: "Page", url: "deals-promos.html" },

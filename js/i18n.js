@@ -1,6 +1,6 @@
 const I18N = {
   fr: {
-    "topstrip.badge": "27 offres vérifiées à la main, sans faux avis",
+    "topstrip.badge": "27 offres vérifiées, mises à jour chaque semaine",
     "topstrip.tagline": "Des économies simples, sans perdre de temps.",
     "nav.guides": "Guides d'Achat",
     "nav.deals": "Deals & Promos",
@@ -46,7 +46,7 @@ const I18N = {
     "howto.step3": "Colle le code dans la case \"code promo\" au moment de payer.",
   },
   en: {
-    "topstrip.badge": "27 hand-verified deals, no fake reviews",
+    "topstrip.badge": "27 verified deals, updated every week",
     "topstrip.tagline": "Simple savings, without wasting time.",
     "nav.guides": "Buying Guides",
     "nav.deals": "Deals & Discounts",
@@ -92,7 +92,7 @@ const I18N = {
     "howto.step3": "Paste the code in the \"promo code\" box at checkout.",
   },
   ar: {
-    "topstrip.badge": "27 عرضًا موثّقًا يدويًا، بدون تقييمات مزيفة",
+    "topstrip.badge": "27 عرضًا موثّقًا، يتم تحديثه كل أسبوع",
     "topstrip.tagline": "توفير بسيط، دون إضاعة الوقت.",
     "nav.guides": "أدلة الشراء",
     "nav.deals": "العروض والتخفيضات",
@@ -138,7 +138,7 @@ const I18N = {
     "howto.step3": "الصق الكود في خانة \"كود الخصم\" عند الدفع.",
   },
   es: {
-    "topstrip.badge": "27 ofertas verificadas a mano, sin reseñas falsas",
+    "topstrip.badge": "27 ofertas verificadas, actualizadas cada semana",
     "topstrip.tagline": "Ahorro simple, sin perder tiempo.",
     "nav.guides": "Guías de Compra",
     "nav.deals": "Ofertas y Promos",

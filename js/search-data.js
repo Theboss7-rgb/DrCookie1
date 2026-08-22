@@ -21,10 +21,10 @@ const SEARCH_INDEX = [
   { name: "Mode & Beauté", type: "Catégorie", url: "mode-beaute.html" },
   { name: "Gaming & Loisirs", type: "Catégorie", url: "gaming-loisirs.html" },
   { name: "Sport & Fitness", type: "Catégorie", url: "sport-fitness.html" },
-  { name: "Beauté & Bien-être", type: "Catégorie", url: "beaute-bienetre.html" },
+  { name: "Montres Connectées", type: "Catégorie", url: "montres-connectees.html" },
   { name: "Enfants & Bébé", type: "Catégorie", url: "enfants-bebe.html" },
   { name: "Auto & Moto", type: "Catégorie", url: "auto-moto.html" },
-  { name: "Voyage & Loisirs", type: "Catégorie", url: "voyage-loisirs.html" },
+  { name: "Écouteurs & Audio", type: "Catégorie", url: "ecouteurs-audio.html" },
   { name: "Cuisine & Électroménager", type: "Catégorie", url: "cuisine-electromenager.html" },
   // Coupons
   { name: "Code promo Amazon", type: "Coupon", url: "codes-coupons.html" },

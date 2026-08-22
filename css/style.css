@@ -163,7 +163,7 @@
     .deal-arrow { width:33px; height:33px; display:grid; place-items:center; border-radius:10px; background:white; color:var(--primary); font-weight:bold; }
 
     section { padding: 29px 0; }
-    .section-head { display:flex; align-items:flex-end; justify-content:space-between; gap:12px; margin-bottom:16px; }
+    .section-head { display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:12px; margin-bottom:16px; }
     .section-head h2 { margin:0; font-size:22px; letter-spacing:-1px; line-height:1.15; }
     .section-head p { display:none; }
     .text-link { flex-shrink:0; color:var(--primary); font-size:12px; font-weight:800; }
@@ -172,7 +172,7 @@
     .flash-section { padding-top: 15px; }
     .flash-title { display:inline-flex; align-items:center; gap:8px; }
     .flash-icon { width:26px; height:26px; display:grid; place-items:center; background:var(--rose-soft); color:var(--rose); border-radius:8px; font-size:15px; }
-    .timer { display:flex; gap:4px; align-items:center; color:var(--rose); font-size:11px; font-weight:800; }
+    .timer { display:flex; flex-wrap:wrap; gap:4px; align-items:center; color:var(--rose); font-size:11px; font-weight:800; white-space:nowrap; }
     .timer b { padding:3px 5px; border-radius:5px; background:var(--rose-soft); }
     .flash-scroll { display:grid; grid-auto-flow:column; grid-auto-columns: 190px; gap:12px; overflow-x:auto; padding:2px 1px 13px; scrollbar-width:none; }
     .flash-scroll::-webkit-scrollbar { display:none; }
@@ -298,6 +298,11 @@
       background:#172033; color:white; box-shadow:0 12px 28px rgba(0,0,0,.22); font-size:11px; font-weight:700; opacity:0; transition:.3s;
     }
     .toast.show { transform:translate(-50%, 0); opacity:1; }
+
+    @media (max-width: 420px) {
+      .flash-title { font-size:19px; }
+      .timer { font-size:10px; width:100%; justify-content:flex-start; }
+    }
 
     @media (min-width: 640px) {
       .article-grid { grid-template-columns:repeat(2, 1fr); }

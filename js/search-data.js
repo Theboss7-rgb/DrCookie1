@@ -22,7 +22,7 @@ const SEARCH_INDEX = [
   { name: "Gaming & Loisirs", type: "Catégorie", url: "gaming-loisirs.html" },
   { name: "Sport & Fitness", type: "Catégorie", url: "sport-fitness.html" },
   { name: "Montres Connectées", type: "Catégorie", url: "montres-connectees.html" },
-  { name: "Enfants & Bébé", type: "Catégorie", url: "enfants-bebe.html" },
+  { name: "Montres de Luxe", type: "Catégorie", url: "montres-luxe.html" },
   { name: "Auto & Moto", type: "Catégorie", url: "auto-moto.html" },
   { name: "Écouteurs & Audio", type: "Catégorie", url: "ecouteurs-audio.html" },
   { name: "Cuisine & Électroménager", type: "Catégorie", url: "cuisine-electromenager.html" },

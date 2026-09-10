@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://theboss7-rgb.github.io/DrCookie1/sitemap.xml

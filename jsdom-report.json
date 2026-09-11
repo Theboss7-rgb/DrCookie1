@@ -1,0 +1,618 @@
+{
+  "pages_tested": 38,
+  "console_errors": [],
+  "js_exceptions": [],
+  "dom_checks": [],
+  "functional_tests": [
+    {
+      "page": "a-propos.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "a-propos.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "a-propos.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "affiliation.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "affiliation.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "affiliation.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "bureau-teletravail.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "bureau-teletravail.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "bureau-teletravail.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "bureau-teletravail.html",
+      "test": "grille filtrée sur catégorie \"bureau-teletravail\"",
+      "pass": true,
+      "details": "3 cartes"
+    },
+    {
+      "page": "categories.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "categories.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "categories.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "comparatifs/casques-et-ecouteurs-gaming.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "comparatifs/casques-et-ecouteurs-gaming.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "comparatifs/casques-et-ecouteurs-gaming.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "comparatifs/quels-ecouteurs-choisir-travail-ou-jeu.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "comparatifs/quels-ecouteurs-choisir-travail-ou-jeu.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "comparatifs/quels-ecouteurs-choisir-travail-ou-jeu.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "comparatifs.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "comparatifs.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "comparatifs.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "confidentialite.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "confidentialite.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "confidentialite.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "gaming.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "gaming.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "gaming.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "gaming.html",
+      "test": "grille filtrée sur catégorie \"gaming\"",
+      "pass": true,
+      "details": "5 cartes"
+    },
+    {
+      "page": "guides/accessoires-bureau.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "guides/accessoires-bureau.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "guides/accessoires-bureau.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "guides/accessoires-installation-gaming.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "guides/accessoires-installation-gaming.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "guides/accessoires-installation-gaming.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "guides/gadgets-moins-de-30-euros.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "guides/gadgets-moins-de-30-euros.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "guides/gadgets-moins-de-30-euros.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "guides/support-ordinateur-tablette.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "guides/support-ordinateur-tablette.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "guides/support-ordinateur-tablette.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "guides.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "guides.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "guides.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "index.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "index.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "index.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "mentions-legales.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "mentions-legales.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "mentions-legales.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/baseus-eli-2i-fit-ecouteurs-a-oreille-ouverte-veritable-sans.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/baseus-eli-2i-fit-ecouteurs-a-oreille-ouverte-veritable-sans.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/baseus-eli-2i-fit-ecouteurs-a-oreille-ouverte-veritable-sans.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/camera-d-action-insta360-x5-8k-30fps.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/camera-d-action-insta360-x5-8k-30fps.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/camera-d-action-insta360-x5-8k-30fps.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/casque-de-jeu-filaire-qcy-vn200-pro.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/casque-de-jeu-filaire-qcy-vn200-pro.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/casque-de-jeu-filaire-qcy-vn200-pro.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/chaise-gaming-tissu-gtplayer-ergonomique-avec-repose-pieds.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/chaise-gaming-tissu-gtplayer-ergonomique-avec-repose-pieds.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/chaise-gaming-tissu-gtplayer-ergonomique-avec-repose-pieds.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/clavier-sans-fil-bluetooth-souris-universel-tablette-smartph.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/clavier-sans-fil-bluetooth-souris-universel-tablette-smartph.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/clavier-sans-fil-bluetooth-souris-universel-tablette-smartph.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/ecouteurs-filaires-fosi-audio-im4-hifi.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/ecouteurs-filaires-fosi-audio-im4-hifi.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/ecouteurs-filaires-fosi-audio-im4-hifi.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/feiyutech-scorp-c2-stabilisateur-3-axes-pour-dslr.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/feiyutech-scorp-c2-stabilisateur-3-axes-pour-dslr.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/feiyutech-scorp-c2-stabilisateur-3-axes-pour-dslr.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/fifine-kit-de-microphone-xlr-dynamique-avec-honarm.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/fifine-kit-de-microphone-xlr-dynamique-avec-honarm.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/fifine-kit-de-microphone-xlr-dynamique-avec-honarm.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/manette-sans-fil-bluetooth-switch-pc.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/manette-sans-fil-bluetooth-switch-pc.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/manette-sans-fil-bluetooth-switch-pc.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/moniteur-portable-arzopa-16-1-180hz-2-5k.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/moniteur-portable-arzopa-16-1-180hz-2-5k.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/moniteur-portable-arzopa-16-1-180hz-2-5k.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/montre-connectee-haylou-watch-s6.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/montre-connectee-haylou-watch-s6.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/montre-connectee-haylou-watch-s6.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/ortizan-enceinte-bluetooth-5-3-portable-etanche-ip7-40w.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/ortizan-enceinte-bluetooth-5-3-portable-etanche-ip7-40w.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/ortizan-enceinte-bluetooth-5-3-portable-etanche-ip7-40w.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/qcy-melobuds-pro-anc-bluetooth-5-3-ldac-34h.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/qcy-melobuds-pro-anc-bluetooth-5-3-ldac-34h.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/qcy-melobuds-pro-anc-bluetooth-5-3-ldac-34h.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/smartphone-poco-x8-pro-max-8500mah-hypercharge-100w.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/smartphone-poco-x8-pro-max-8500mah-hypercharge-100w.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/smartphone-poco-x8-pro-max-8500mah-hypercharge-100w.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/smartphone-realme-14-pro-5g-6000mah-charge-45w.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/smartphone-realme-14-pro-5g-6000mah-charge-45w.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/smartphone-realme-14-pro-5g-6000mah-charge-45w.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/smartphone-xiaomi-redmi-note-15-pro-5g-200mp-6580mah.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/smartphone-xiaomi-redmi-note-15-pro-5g-200mp-6580mah.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/smartphone-xiaomi-redmi-note-15-pro-5g-200mp-6580mah.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/support-ps5-avec-ventilateur-de-refroidissement-et-chargeur-.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/support-ps5-avec-ventilateur-de-refroidissement-et-chargeur-.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/support-ps5-avec-ventilateur-de-refroidissement-et-chargeur-.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/vention-batterie-externe-20000mah-45w-charge-rapide.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/vention-batterie-externe-20000mah-45w-charge-rapide.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/vention-batterie-externe-20000mah-45w-charge-rapide.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits/xiaomi-pad-8-snapdragon-8s-gen-4-11-2-144hz.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits/xiaomi-pad-8-snapdragon-8s-gen-4-11-2-144hz.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits/xiaomi-pad-8-snapdragon-8s-gen-4-11-2-144hz.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "produits.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "produits.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "produits.html",
+      "test": "grille produits rendue au chargement",
+      "pass": true,
+      "details": "19 cartes"
+    },
+    {
+      "page": "produits.html",
+      "test": "filtre catégorie \"gaming\"",
+      "pass": true,
+      "details": "5 cartes, toutes gaming: true"
+    },
+    {
+      "page": "produits.html",
+      "test": "message \"aucun résultat\" sur recherche vide",
+      "pass": true
+    },
+    {
+      "page": "produits.html",
+      "test": "tri prix croissant",
+      "pass": true
+    },
+    {
+      "page": "tech-accessoires.html",
+      "test": "menu mobile (ouverture/fermeture)",
+      "pass": true
+    },
+    {
+      "page": "tech-accessoires.html",
+      "test": "recherche header (\"FIFINE\")",
+      "pass": true
+    },
+    {
+      "page": "tech-accessoires.html",
+      "test": "recherche header (aucun résultat)",
+      "pass": true
+    },
+    {
+      "page": "tech-accessoires.html",
+      "test": "grille filtrée sur catégorie \"tech-accessoires\"",
+      "pass": true,
+      "details": "11 cartes"
+    }
+  ]
+}
